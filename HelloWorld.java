@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Date;
 import java.awt.*;
 
@@ -33,11 +34,43 @@ public class HelloWorld {
 
         // String
 
-        String message = "Hello World" + "!!";
-        System.out.println(message.endsWith("!!"));
-        System.out.println(message);
-        System.out.println(message.length());
-        System.out.println(message.indexOf("o"));
-        System.out.println(message.replace("o", "a"));
+        // String message = "Hello World" + "!!";
+        // System.out.println(message.endsWith("!!"));
+        // System.out.println(message);
+        // System.out.println(message.length());
+        // System.out.println(message.indexOf("o"));
+        // System.out.println(message.replace("o", "a"));
+    
+        // Arrays
+
+        // Old Way
+        // int[] numbers = new int[5];
+        // numbers[0] = 1;
+        // numbers[1] = 2;
+        // numbers[2] = 10;
+        
+        // System.out.println(Arrays.toString(numbers));
+        // int[] numbers = {1, 2, 3, 4}; 
+        // System.out.println(numbers.length);
+
+        // Multidimensional Arrays 
+
+        // int [][] numbers2D = new int [3][2];
+        // numbers2D[0][0] = 1;
+        // System.out.println(Arrays.deepToString(numbers2D));
+
+        // int[][] numbers = {{1, 2, 3}, {4, 5}};
+        // System.out.println(Arrays.deepToString(numbers));
+
+        // Constants
+
+        // final float Pi = 3.14F;
+
+        // Arithmetic Expressions
+        // double result = (double)10 / (double)3;
+        // System.out.println(result);
+       
+        
+        // Casting
     }
 }

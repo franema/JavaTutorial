@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Date;
 import java.awt.*;
+import java.text.NumberFormat;
 
 /**
  * Hello
@@ -82,9 +83,32 @@ public class HelloWorld {
         // int y = (int)x + 2;
         // System.out.println(y);
     
-        String x = "1";
-        int y = Integer.parseInt(x) + 2; // Float, Short etc..
-        System.out.println(y);
+        // String x = "1";
+        // int y = Integer.parseInt(x) + 2; // Float, Short etc..
+        // System.out.println(y);
+
+        
+        // Math Class
+
+        // int result = Math.round(1.1F); // 1
+        // int result2 = (int)Math.ceil(1.1F); // 2
+        // int result3 = (int)Math.floor(1.1F); // 1
+        // int result4 = Math.max(1, 8); // 8 
+        // int result5 = (int)Math.round(Math.random() * 100);
+        // int result6 = (int) (Math.random() * 100);
+        // System.out.println(result5);
+        // System.out.println(result6);
+
+
+        // Formating Numbers
+
+        // NumberFormat currency = NumberFormat.getCurrencyInstance();
+        // String result = currency.format(1234567.981);
+        // System.out.println(result);
+        // NumberFormat percentaje = NumberFormat.getPercentInstance();
+        // String result2 = percentaje.format(0.1);
+        // System.out.println(result2);
+
 
     }
 }

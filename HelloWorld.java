@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 import java.awt.*;
 import java.text.NumberFormat;
 
@@ -108,6 +109,14 @@ public class HelloWorld {
         // NumberFormat percentaje = NumberFormat.getPercentInstance();
         // String result2 = percentaje.format(0.1);
         // System.out.println(result2);
+
+
+        //Reading Input
+
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Name: ");
+        // String name = scanner.nextLine();
+        // System.out.println("You are " + name);
 
 
     }

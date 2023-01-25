@@ -1,9 +1,14 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class ThirdPart {
@@ -94,14 +99,75 @@ public class ThirdPart {
         // System.out.println(x);
 
         // LinkedList
-        LinkedList<Integer> t = new LinkedList<Integer>();
-        t.add(3);
-        t.add(-5);
-        t.add(8);
-        t.add(5);
-        t.add(4);
-        System.out.println(t);
+        // LinkedList<Integer> t = new LinkedList<Integer>();
+        // t.add(3);
+        // t.add(-5);
+        // t.add(8);
+        // t.add(5);
+        // t.add(4);
+        // System.out.println(t);
 
+
+        //Maps and HashMaps
+        //Hashmaps: unique and unordered. If I asign something to the same key, it overrides it
+        // Map m = new HashMap();
+        // m.put("tim", 5);
+        // m.put("joe", "x");
+        // m.put(11, 9.99);
+        // m.put(11, 9.97);
+
+        // System.out.println(m);
+        // System.out.println(m.get("joe"));
+
+        //TreeMap. The keys must be the same kind of variable, beacause it's sorted.
+        // Map m = new TreeMap();
+        // m.put("tim", 5);
+        // m.put("joe", "x");
+        // m.put("a", "x");
+
+        // System.out.println(m);
+        // System.out.println(m.get("joe"));
+
+        //LinkedHashMap. Keeps the order in which elements were added.
+        // Map m = new LinkedHashMap();
+        // m.put("tim", 5);
+        // m.put("joe", "x");
+        // m.put("a", "x");
+        // m.put(1, "x");
+
+        // System.out.println(m);
+        // System.out.println(m.get("joe"));
+
+        // //Map methods
+        // System.out.println(m.containsValue(5));
+        // System.out.println(m.containsKey("a"));
+        // System.out.println(m.values());
+        // System.out.println(m.keySet());
+        // m.remove("a")
+        // m.clear();
+        // m.isEmpty();
+
+
+        //Exercise
+        // String[] letters = {"a", "b", "a", "e", "r", "a", "a", "r", "r", "t"};
+        // Map<String, Integer> countedLetters = new HashMap();
+
+        // for (String letter : letters) {
+        //     if(countedLetters.containsKey(letter)) {
+        //         countedLetters.put(letter, countedLetters.get(letter) + 1);
+        //     } else {
+        //         countedLetters.put(letter, 1);
+        //     }
+        // }
+        // System.out.println(countedLetters);
+
+        //Array Sort
+        // int[] numbers = {-12, 0, 2, -4, 16, 5, 122, 8, 8};
+
+        // // Arrays.sort(numbers, 1, 4);
+        // Arrays.sort(numbers);
+        // System.out.println(Arrays.toString(numbers));
     }
+
 
 }

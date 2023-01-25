@@ -187,6 +187,10 @@ public class ThirdPart {
         // System.out.println(dog1.getAge());
 
         
+        //Inheritance
+
+        Cat cat1 = new Cat("Pepe", 10, 200);
+        cat1.speak();
 
     }
 

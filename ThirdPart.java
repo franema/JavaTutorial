@@ -189,8 +189,18 @@ public class ThirdPart {
         
         //Inheritance
 
-        Cat cat1 = new Cat("Pepe", 10, 200);
-        cat1.speak();
+        // Cat cat1 = new Cat("Pepe", 10, 200);
+        // cat1.speak();
+
+
+        // Static Variables
+        Dog dog1 = new Dog("asnd", 2);
+        Dog dog2 = new Dog("asasd", 4);
+        Dog dog3 = new Dog("a123", 5);
+        Dog dog4 = new Dog("acvxc", 8);
+        System.out.println(Dog.count);
+        Dog.display();
+
 
     }
 

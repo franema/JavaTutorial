@@ -1,4 +1,6 @@
 public class Dog {
+
+    protected static int count = 0;
     
     protected String name;
     private int age;
@@ -6,7 +8,7 @@ public class Dog {
     public Dog(String name,int age) {
         this.name = name;
         this.age = age;
-        add2();
+        Dog.count += 1;
     }
 
     public void speak() {
@@ -23,6 +25,10 @@ public class Dog {
 
     private int add2() {
         return this.age + 2;
+    }
+
+    public static void display() {
+        System.out.println("I'm a Dog");
     }
 }
 

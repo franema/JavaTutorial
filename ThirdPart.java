@@ -225,6 +225,14 @@ public class ThirdPart {
         // OuterClass out = new OuterClass();
         // out.inner();
 
+
+        //Interfaces. Can't create an instance, it's just inheritance. They can just have public methods
+        Car autito = new Car();
+        autito.SpeedUp(10);
+        autito.ChangeGear(4);
+        autito.display();
+        System.out.println(Vehicle.math(5));
+
     }
 
 

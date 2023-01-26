@@ -194,12 +194,27 @@ public class ThirdPart {
 
 
         // Static Variables
-        Dog dog1 = new Dog("asnd", 2);
-        Dog dog2 = new Dog("asasd", 4);
-        Dog dog3 = new Dog("a123", 5);
-        Dog dog4 = new Dog("acvxc", 8);
-        System.out.println(Dog.count);
-        Dog.display();
+        // Dog dog1 = new Dog("asnd", 2);
+        // Dog dog2 = new Dog("asasd", 4);
+        // Dog dog3 = new Dog("a123", 5);
+        // Dog dog4 = new Dog("acvxc", 8);
+        // System.out.println(Dog.count);
+        // Dog.display();
+
+
+        // Comparing Objects
+
+        // Student cacho = new Student("cacho");
+        // Student cosme = new Student("cacho");
+        // Student pepe = new Student("pepe");
+        // System.out.println(cacho == cosme);
+        // System.out.println(cacho.equals(cosme));
+        // System.out.println(cacho.compareTo(cosme));
+        // System.out.println(cacho.compareTo(pepe) > 0);
+
+        //Object string representation
+        // System.out.println(cacho);
+
 
 
     }

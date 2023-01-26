@@ -215,9 +215,19 @@ public class ThirdPart {
         //Object string representation
         // System.out.println(cacho);
 
+        //Inner Classes
+        // OuterClass out = new OuterClass();
+        // out.inner();
 
+        // OuterClass.InnerClass in = out.new InnerClass();
+        // in.display();
+
+        // OuterClass out = new OuterClass();
+        // out.inner();
 
     }
+
+
 
     // //Methods
     // public static void myMethod(String str, int x) {

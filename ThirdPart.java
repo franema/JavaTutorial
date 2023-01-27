@@ -12,6 +12,8 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+import javax.lang.model.util.ElementScanner14;
+
 public class ThirdPart {
 
     public static void main(String[] args) {
@@ -227,11 +229,27 @@ public class ThirdPart {
 
 
         //Interfaces. Can't create an instance, it's just inheritance. They can just have public methods
-        Car autito = new Car();
-        autito.SpeedUp(10);
-        autito.ChangeGear(4);
-        autito.display();
-        System.out.println(Vehicle.math(5));
+        // Car autito = new Car();
+        // autito.SpeedUp(10);
+        // autito.ChangeGear(4);
+        // autito.display();
+        // System.out.println(Vehicle.math(5));
+
+
+        //Enum
+        Level lvl = Level.Low;
+
+
+        if(lvl == Level.Low) {
+            System.out.println(lvl);
+        } else if (lvl == Level.Medium) {
+            System.out.println(lvl);
+        } else {
+            System.out.println(lvl);
+        }
+
+        System.out.println(Arrays.toString(Level.values()));
+        System.out.println(Level.valueOf("Low"));
 
     }
 

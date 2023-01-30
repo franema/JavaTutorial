@@ -1,3 +1,4 @@
+package JavaBeginner;
 public class Cat extends Dog {
 
     private int food;

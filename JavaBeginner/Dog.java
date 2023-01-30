@@ -1,3 +1,4 @@
+package JavaBeginner;
 public class Dog {
 
     protected static int count = 0;

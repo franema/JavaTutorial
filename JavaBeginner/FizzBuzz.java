@@ -1,3 +1,4 @@
+package JavaBeginner;
 import java.util.Scanner;
 
 public class FizzBuzz {

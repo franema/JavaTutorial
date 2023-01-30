@@ -1,3 +1,4 @@
+package JavaBeginner;
 public class Car implements Vehicle {
     
     private int gear = 1;

@@ -1,3 +1,4 @@
+package JavaBeginner;
 public interface Vehicle {
 
     final int gears = 5;

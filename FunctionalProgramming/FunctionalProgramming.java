@@ -2,6 +2,7 @@ package FunctionalProgramming;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -31,8 +32,11 @@ public class FunctionalProgramming {
 
         System.out.println("Declarative");
         // Declarative
+
+        Predicate<Person> personPredicate = person -> Gender.FEMALE.equals(person.gender);
+
         people.stream()
-            .filter(person -> Gender.FEMALE.equals(person.gender))
+            .filter(personPredicate)
             .forEach(System.out::println);
 
         List<Person> females2 = people.stream()
